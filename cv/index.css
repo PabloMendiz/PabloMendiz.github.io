@@ -79,10 +79,6 @@ body{
   color: white;
   background-color: #dcdad6;
 }
-main{
- margin-top: 1%;
-}
-
 .escondido{
   transition: opacity 1s ease-out;
   opacity: 0;
@@ -92,7 +88,7 @@ main{
   margin-right: 2%;
   position: absolute;
   transition: 1s ease;
-  top: 5;
+  top: 250px;
 }
 .escondido:target{
   opacity: 1;
@@ -145,12 +141,18 @@ main{
 }
 #navCV{
   display: block;
-  justify-content: space-around;
+  justify-content: center;
   /* margin-left: 15%; */
+}
+#cvpdf{
+  margin-top: -1%;
 }
 #navCover{
   display: block;
   justify-content: space-around;
+}
+#Cover{
+  margin-top: -1%;
 }
 #gif{
   margin-left: 25%;
@@ -158,7 +160,6 @@ main{
   border: 20px groove #2a4b2e;
 }
 iframe{
-  top: 250;
   border: 5px groove #2a4b2e;
 }
 #fotoHeader{
