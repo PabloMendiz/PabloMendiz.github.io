@@ -1,0 +1,225 @@
+@font-face {
+font-family: roboto;
+src: url('fuentes/Roboto-Light.ttf');
+}
+* {
+/*border: solid red 1px;*/
+box-sizing: border-box;
+font-family: roboto;
+}
+
+
+body{
+  text-align: center;
+  background-image: url('imagenes/fondo_pagina2.png');
+  color: white;
+  margin: 0;
+
+}
+header {
+  width: 100%;
+}
+.gamePic {
+  width: 65px;
+}
+.gamePic:hover {
+  transform: scale(1.3);
+  transition: 0.2s ease all;
+}
+#banner {
+
+  width: 100%;
+}
+
+#navGames{
+  /*z-index: 100;*/
+  margin-top: -5px;
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+#navNews{
+  padding-top: 1.5%;
+  padding-bottom: 1%;
+  margin-top: 2%;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.newsPics{
+  width: 100%;
+  height: 100%;
+
+}
+
+.navTitle {
+  background-image: linear-gradient(rgba(255, 0, 0, .3), rgba(255, 0, 0, 0.6));
+  margin: 2%;
+  border-radius: 5px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+.navPic {
+/*  z-index: 200;
+  position: relative;
+  display: inline-block;*/
+  width: 90%;
+  height: 90%;
+}
+main{
+  margin-top: 2%;
+  display: flex;
+  justify-content: space-around;
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+#sec1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  margin-top: -1%;
+  margin-bottom: 1%;
+}
+#sec2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: -1%;
+  width: 100%;
+  margin-bottom: 1%;
+}
+article {
+  justify-content: center;
+  align-items:center;
+  border-radius: 20px;
+  width: 45%;
+  margin: 0.7%;
+  font-size: 100%;
+}
+.enJuego {
+  color:  rgb(87, 255, 57);
+  font-weight: bold;
+}
+#vsJuego{
+color: rgb(255, 255, 255);
+font-weight: bolder;
+}
+.vs{
+  margin: 1%;
+ font-weight: bold;
+
+}
+.result{
+  font-size: 18px;
+  margin-left: 3px;
+  margin-right: 3px;
+}
+.match{
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 1%;
+  justify-content: center;
+  align-items:center;
+  border-radius: 20px;
+  width: 45%;
+  margin: 0.7%;
+  font-size: 100%;
+
+}
+.teamLogs{
+  width: 95%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+}
+.logoPartidos{
+  width: 25%;
+}
+.GameLogo{
+  width: 28%;
+}
+.titularPartidos {
+  margin-top: 4.5%;
+  margin-bottom: 1%;
+  margin-left: 5%;
+  margin-right: 5%;
+  text-align:left;
+  width: 100%;
+  border-bottom: solid red 1px;
+  font-family: roboto;
+  font-weight: 300;
+}
+h2{
+  margin-right: 2%;
+  margin-left: 2%;
+  margin-top: 1%;
+  margin-bottom: .9%;
+}
+a{
+  text-decoration: none;
+}
+/* unvisited link */
+a:link {
+    color: rgb(220, 220, 220);
+}
+
+/* visited link */
+a:visited {
+  color: rgb(200, 200, 200);
+}
+
+/* mouse over link */
+a:hover {
+    color: rgb(255, 255, 255);
+}
+
+footer {
+margin-top: 2%;
+}
+.footer1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(rgba(30, 45, 42, 0.4), rgba(30, 45, 42, 0.9))
+}
+.descripcionFooter{
+  width: 20%;
+  margin: 2%;
+}
+.picFooter{
+width: 200px;
+}
+.footerlFinal{
+display: flex;
+height: 17%;
+width: 100%;
+align-items: center;
+background-image: linear-gradient(rgba(230, 230, 252, 0.3), rgba(130, 135, 142, 0.4))
+}
+.footerTxtFinal{
+  display: flex;
+text-align: left;
+margin-right: 15%;
+margin-left: 5%;
+font-size: 13px;
+color: rgb(0, 0, 0);
+font-weight: bolder;
+}
+.picFooter2{
+  display: flex;
+  height: 50px;
+  margin-left: 10%;
+  margin-right: 2%;
+  margin-top: 0.3%;
+  margin-bottom: 0.3%;
+}
