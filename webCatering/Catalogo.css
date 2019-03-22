@@ -1,0 +1,81 @@
+
+*{ box-sizing: border-box;
+  color: #5e616a;
+}
+.fondo-logo{
+  background-color: white;
+}
+.bg-color{
+  background-color:#e8aa8c;
+}
+.cuerpo{
+  background-color: #f9f3e6;
+}
+.carousel img{
+  width: 100%;
+}
+#logoFoot{
+  width: 30%;
+  border-radius: 15px;
+}
+.modal-content{
+  background: #f9f3e6;
+}
+.modal-body{
+  background: #f9f3e6;
+  border-radius: 15px;
+}
+#logoTop{
+  width: 50%;
+}
+footer{
+  background-color: #e8aa8c;
+}
+.navbar-toggler{
+  border: none;
+}
+#logo-insta{
+  width: 13%;
+}
+#logo-linked{
+  width: 18%;
+}
+.container .col{
+  
+  border: 2px solid red;
+  margin-right: 30px;
+  margin-left: 30px;
+}
+.row{
+  border: 2px solid blue;
+}
+img{
+  width: 60%;
+  height: 70%;
+  border-radius: 10px;
+}
+
+@media (min-width: 768px) {
+  #logo-insta{
+    width: 10%;
+  }
+  #logo-linked{
+    width: 10%;
+  }
+  #logoFoot{
+    width: 18%;
+    border-radius: 15px;
+  }
+
+  .carousel{
+    margin:auto;
+    width: 70%;
+    }
+    .carousel img{
+    border-radius: 15px;
+   }
+
+}
+@media (min-width: 998px) {
+
+}

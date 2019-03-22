@@ -1,0 +1,107 @@
+*{ box-sizing: border-box;
+  color: #5e616a;
+  font-size: 100%;
+}
+.fondo-logo{
+  background-color: white;
+}
+.bg-color{
+  background-color:#e8aa8c;
+}
+.cuerpo{
+  background-color: #f9f3e6;
+}
+footer{
+  background-color: #e8aa8c;
+}
+.navbar-toggler{
+  border: none;
+}
+#logo-insta{
+  width: 50%;
+}
+#logo-linked{
+  width: 50%;
+}
+#logoTop{
+  width: 50%;
+  margin-bottom: -3%;
+}
+#logoFoot{
+  width: 55%;
+  border-radius: 15px;
+}
+.photoC {
+  width:100%;
+}
+.modal-content{
+  background: #f9f3e6;
+}
+.modal-body{
+  background: #f9f3e6;
+  border-radius: 15px;
+}
+
+@media (min-width: 768px) {
+  *{
+    font-size: 101%;
+  }
+  #logo-insta{
+    width: 40%;
+  }
+  #logo-linked{
+    width: 40%;
+  }
+  #logoFoot{
+    width: 40%;
+    border-radius: 15px;
+  }
+  #logoTop{
+    width: 25%;
+    margin-bottom: .5%;
+    margin-top: -1%;
+  }
+  .header{
+    height: 70vh;
+  }
+  .mama{
+    height: 70vh;
+  }
+  .photoC{
+    height: 70vh;
+  }
+  .carrusel{
+    min-height: 100vh;
+  }
+}
+@media (min-width: 998px) {
+  *{
+    font-size: 102%;
+  }
+  #logo-insta{
+    width: 20%;
+  }
+  #logo-linked{
+    width: 20%;
+  }
+  #logoFoot{
+    width: 22%;
+    border-radius: 15px;
+  }
+    #logoTop {
+      width: 12%;
+      margin-top: .2%;
+}
+.header{
+  height: 70vh;
+}
+.mama{
+  height: 70vh;
+}
+.photoC{
+  height: 70vh;
+}
+.carrusel{
+  min-height: 100vh;
+}
+}

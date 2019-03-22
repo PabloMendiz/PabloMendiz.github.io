@@ -1,0 +1,43 @@
+
+*{ box-sizing: border-box;
+  color: #5e616a;
+}
+.fondo-logo{
+  background-color: white;
+}
+.bg-color{
+  background-color:##e8aa8c;
+}
+.cuerpo{
+  background-color: #f9f3e6;
+}
+footer{
+  background-color: #e8aa8c;
+}
+.navbar-toggler{
+  border: none;
+}
+#logo-insta{
+  width: 13%;
+}
+#logo-linked{
+  width: 18%;
+}
+#logo{
+  width: 50%;
+}
+#logoFoot{
+  width: 30%;
+  border-radius: 15px;
+}
+@media (min-width: 768px) {
+  #logo-insta{
+    width: 5%;
+  }
+  #logo-linked{
+    width: 7%;
+  }
+
+}
+@media (min-width: 1200px) {
+}
